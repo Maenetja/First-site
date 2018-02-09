@@ -9,8 +9,8 @@ myImage.onclick = function() {
     }
 }
 
-var myButton = document.querySelector('button');
 var myHeading = document.querySelector('h1');
+var myButton = document.getElementById('button');
 
 function setUserName() {
   var myName = prompt('Please enter your name.');
